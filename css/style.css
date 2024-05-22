@@ -1,0 +1,43 @@
+.mt-100{
+    margin-top: 100px;
+}
+
+
+/*Todos os botões*/
+.accordion-button{
+    box-shadow: none !important;
+}
+
+/*todos os "accordion-button" que não tiver a classe collapsed*/
+.accordion-button:not(.collapsed){
+    background-color: #0D6EFD !important;
+    color: white;        
+}
+
+.social{
+    display: flex;
+    column-gap: 10px;
+}
+
+.social a{
+    color: white;
+    font-size: 30px;
+    transition: 0.1s;
+}
+
+.social a:hover{
+    transform: translateY(-3px);   
+}
+
+.carousel-caption{
+    /*sombra horizontal, vertical, suavidade, cor*/
+    text-shadow: 2px 2px 1px #222222;
+}
+
+.carousel{
+    background-color: black;
+}
+
+.carousel img{
+    opacity: 0.8;
+}
